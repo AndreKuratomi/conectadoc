@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main>
+      <main>  {/* HomeContainer */}
         <section>
           <h2>Bem-vindo à KenzieDoc!</h2>
           <p>Lorem ipsum dolor sicut amet</p>
@@ -38,3 +38,5 @@ const Home = () => {
     </>
   );
 };
+
+export default Home
