@@ -8,18 +8,12 @@ const Dashboard = () => {
           {/* IndicadorContent */}
           <article>
             <h2>Indicador1: Total de atendimentos para o dia</h2>
-            <FormDashboard />
-            <p>Não possui conta? Então vamos para o Cadastro!</p>
           </article>
           <article>
             <h2>Indicador2: Total de agendamentos cancelados</h2>
-            <FormDashboard />
-            <p>Não possui conta? Então vamos para o Cadastro!</p>
           </article>
           <article>
             <h2>Indicador3: ?</h2>
-            <FormDashboard />
-            <p>Não possui conta? Então vamos para o Cadastro!</p>
           </article>
         </section>
         <section>
