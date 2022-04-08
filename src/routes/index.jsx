@@ -5,7 +5,7 @@ import SignUp from "../pages/SignUp";
 import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import Schedules from "../pages/Schedules";
-import MedicalPrompt from "../pages/MedicalPrompt";
+import MedicalRecord from "../pages/MedicalRecord";
 import NotFound from "../pages/NotFound";
 
 export const AllRoutes = () => {
@@ -16,7 +16,7 @@ export const AllRoutes = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/schedules" element={<Schedules />} />
-      <Route path="/medicalprompt" element={<MedicalPrompt />} />
+      <Route path="/medicalrecord" element={<MedicalRecord />} />
       <Route element={<NotFound />} />
     </Routes>
   );
