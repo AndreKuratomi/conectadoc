@@ -2,7 +2,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export const UserLogged = () => {
   const navigate = useNavigate();
-
+  const user = "";
   const handleLogout = () => {
     localStorage.clear();
     navigate.push("/");
