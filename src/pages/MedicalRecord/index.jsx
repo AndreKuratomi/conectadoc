@@ -1,41 +1,46 @@
-const Schedules = () => {
+const MedicalRecord = () => {
   return (
     <>
       <Header />
       <main>
-        {/* SchedulesContainer */}
+        {/* MedicalRecordContainer */}
         <section>
           <h2>Prontuário</h2>
+          <select>Selecione paciente</select>
           {/* IndicadorContent */}
           <article>
             <h2>Subjetiva</h2>
-            <p>Problema</p> {/*ver de usar aquela listinha */}
+            {/*ver de usar aquela listinha */}
+            <select>Problema</select>
             <p>Situação</p>
-            <check>Ativo</check> <check>Inativo</check>
+            <select>Ativo/Inativo</select>
             <span>Alguma coisa aqui para fazer uma checagem em 2 botões</span>
             <textarea></textarea>
           </article>
           <article>
             <h2>Objetiva</h2>
-            <p>Problema</p> {/*ver de usar aquela listinha */}
+            {/*ver de usar aquela listinha */}
+            <select>Problema</select>
             <p>Situação</p>
-            <check>Ativo</check> <check>Inativo</check>
+            <select>Ativo/Inativo</select>
             <span>Alguma coisa aqui para fazer uma checagem em 2 botões</span>
             <textarea></textarea>
           </article>
           <article>
             <h2>Avaliação</h2>
-            <p>Problema</p> {/*ver de usar aquela listinha */}
+            {/*ver de usar aquela listinha */}
+            <select>Problema</select>
             <p>Situação</p>
-            <check>Ativo</check> <check>Inativo</check>
+            <select>Ativo/Inativo</select>
             <span>Alguma coisa aqui para fazer uma checagem em 2 botões</span>
             <textarea></textarea>
           </article>
           <article>
             <h2>Plano</h2>
             <p>Situação</p>
-            <check>Ativo</check> <check>Inativo</check>
-            <p>Problema</p> {/*ver de usar aquela listinha */}
+            <select>Ativo/Inativo</select>
+            {/*ver de usar aquela listinha */}
+            <select>Problema</select>
             <span>Alguma coisa aqui para fazer uma checagem em 2 botões</span>
             <textarea></textarea>
           </article>
@@ -48,4 +53,4 @@ const Schedules = () => {
   );
 };
 
-export default Schedules;
+export default MedicalRecord;
