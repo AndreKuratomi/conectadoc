@@ -2,7 +2,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export const UserLogged = () => {
   const navigate = useNavigate();
-  const user = "";
+  // const user = { sex: "" };
   const handleLogout = () => {
     localStorage.clear();
     navigate.push("/");
@@ -10,7 +10,7 @@ export const UserLogged = () => {
 
   return (
     <>
-      {user.sex === "female" ? <p>Bem-vinda, {}!</p> : <p>Bem-vindo, {}!</p>}
+      {/* {user.sex === "female" ? <p>Bem-vinda, {}!</p> : <p>Bem-vindo, {}!</p>} */}
       <button onClick={() => navigate.push("/schedules")}>Agendamentos</button>
       <button onClick={() => navigate.push("/medicalrecord")}>
         Prontuários

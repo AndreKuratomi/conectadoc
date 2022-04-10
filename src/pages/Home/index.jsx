@@ -10,7 +10,9 @@ const Home = () => {
       <HomeContainer>
         <TextContent>
           <h2>Bem-vindo à KenzieDoc!</h2>
-          <p>Lorem ipsum dolor sicut amet</p>
+          <p>
+            Cadastre-se e agende suas consultas de maneira simples e intuitiva
+          </p>
         </TextContent>
         <figure>
           <Image src={HomeImg1} alt="HomeImg1" />
