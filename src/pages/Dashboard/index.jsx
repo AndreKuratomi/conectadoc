@@ -1,23 +1,25 @@
 import { Header } from "../../components/Header";
 
+import { DashboardContainer, IndicadoresContent } from "./styles";
+
 const Dashboard = () => {
   return (
     <>
       <Header />
-      <main>
-        {/* DashboardContainer */}
-        <section>
-          {/* IndicadorContent */}
+      <DashboardContainer>
+        {/*  */}
+        <IndicadoresContent>
+          {/*  */}
           <article>
             <h2>Indicador1: Total de atendimentos para o dia</h2>
           </article>
           <article>
             <h2>Indicador2: Total de agendamentos cancelados</h2>
           </article>
-          <article>
+          {/* <article>
             <h2>Indicador3: ?</h2>
-          </article>
-        </section>
+          </article> */}
+        </IndicadoresContent>
         <section>
           {/* SchedulesContent */}
           <article>
@@ -31,12 +33,14 @@ const Dashboard = () => {
             {/* link para página schedules */}
           </article>
           <article>
+            <h3>Pacientes agendados para hoje!</h3>
+            {/* se não tiver nenhum, "Nenhum agendamento para hoje! */}
             <p>
               (Fazer aqui um carrossel???) então schedules será um componente?
             </p>
           </article>
         </section>
-      </main>
+      </DashboardContainer>
     </>
   );
 };
