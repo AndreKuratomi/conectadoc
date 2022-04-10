@@ -22,7 +22,6 @@ const Login = () => {
             </p>
           </div>
         </LoginContent>
-
         <figure>
           <Image src={loginImg} alt="loginImg" />
           <figcaption>loginImg</figcaption>
