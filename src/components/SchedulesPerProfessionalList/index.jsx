@@ -1,12 +1,11 @@
 import { SingleSchedule } from "./styles";
 
-export const SchedulesCanceled = () => {
+export const SchedulesPerProfessionalList = () => {
   return (
     <SingleSchedule>
-      <p>Médico: </p>
       <p>Paciente: </p>
       <p>Horário: </p>
-      {/* <p>Sala: {}</p> */}
+      <p>Descrição: </p>
     </SingleSchedule>
   );
 };

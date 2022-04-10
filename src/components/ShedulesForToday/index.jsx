@@ -1,11 +1,11 @@
-import { SingleSchedule, ScheduleElement } from "./styles";
+import { SingleSchedule } from "./styles";
 
 export const SchedulesForToday = () => {
   return (
     <SingleSchedule>
-      <p>Médico: </p>
-      <p>Paciente: </p>
-      <p>Horário: </p>
+      <h4>Total de atendimentos para hoje</h4>
+      <p>Dr. X: 4</p>
+      <p>Dra. Y: 5</p>
       {/* <p>Sala: {}</p> */}
     </SingleSchedule>
   );

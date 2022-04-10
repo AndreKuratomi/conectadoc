@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header";
-import HomeImg1 from "../../assets/imgs/HomeImg1.svg";
+import register from "../../assets/imgs/register.svg";
 
 import { HomeContainer, Image, TextContent } from "./styles";
 
@@ -15,8 +15,8 @@ const Home = () => {
           </p>
         </TextContent>
         <figure>
-          <Image src={HomeImg1} alt="HomeImg1" />
-          <figcaption>HomeImg1</figcaption>
+          <Image src={register} alt="register" />
+          <figcaption>register</figcaption>
         </figure>
       </HomeContainer>
       {/* <Footer /> */}
