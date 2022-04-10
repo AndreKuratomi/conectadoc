@@ -1,4 +1,6 @@
 import { Header } from "../../components/Header";
+import { SchedulesForToday } from "../../components/ShedulesForToday";
+import { SingleSchedule } from "../../components/ShedulesForToday/styles";
 
 import { DashboardContainer, IndicadoresContent } from "./styles";
 
@@ -7,18 +9,19 @@ const Dashboard = () => {
     <>
       <Header />
       <DashboardContainer>
-        {/*  */}
         <IndicadoresContent>
-          {/*  */}
           <article>
-            <h2>Indicador1: Total de atendimentos para o dia</h2>
+            <h3>Consultas de hoje</h3>
+            <SchedulesForToday />
           </article>
           <article>
             <h2>Indicador2: Total de agendamentos cancelados</h2>
           </article>
-          {/* <article>
-            <h2>Indicador3: ?</h2>
-          </article> */}
+          <article>
+            <h2>
+              Indicador3: Lista de pacientes agendados por médico para o dia
+            </h2>
+          </article>
         </IndicadoresContent>
         <section>
           {/* SchedulesContent */}
