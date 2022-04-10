@@ -18,14 +18,9 @@ export const Header = () => {
           <LinksContainer>
             <Link to="/login">Login</Link>
             <Link to="/signup">Cadastre-se</Link>
-            {/* <button onClick={() => navigate.push("/login")}>Login</button>
-            <button onClick={() => navigate.push("/signup")}>
-              Cadastre-se
-            </button> */}
           </LinksContainer>
         )}
       </HeaderContainer>
-      {/* fazer lista de headers para ver quando usar cada um? */}
     </>
   );
 };

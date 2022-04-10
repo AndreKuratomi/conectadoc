@@ -45,7 +45,7 @@ export default createGlobalStyle`
     }
     
     header {
-        background-color: var(--white);
+        background-color: var(--light-blue);
         min-width: 270px;
     }
     html, body {
