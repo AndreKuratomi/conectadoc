@@ -1,23 +1,19 @@
-// import styled from "styled-components";
+import styled from "styled-components";
 
-// export const Form = styled.form`
-//   display: flex;
-//   flex-direction: column;
-//   max-width: 197px;
-// `;
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  max-width: 197px;
+  margin-top: 1rem;
 
-// export const Input = styled.input`
-//   margin-bottom: 0.5rem;
-//   max-width: 197px;
-//   padding: 0.5rem;
-//   text-align: left;
-// `;
+  @media screen and (min-width: 1024px) {
+    width: 40rem;
+  }
+`;
 
-// export const ErrorDiv = styled.div`
-//   color: #f00;
-//   margin-bottom: 0.5rem;
-// `;
-
-// export const S = styled.span`
-//   color: #2d7cf9;
-// `;
+export const Input = styled.input`
+  margin-bottom: 0.5rem;
+  max-width: 197px;
+  padding: 0.5rem;
+  text-align: left;
+`;
