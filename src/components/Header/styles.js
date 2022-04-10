@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   padding: 0.5rem 10rem;
 
   a {
-    color: #029adf;
+    color: var(--blue);
   }
 `;
 

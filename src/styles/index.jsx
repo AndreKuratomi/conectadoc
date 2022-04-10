@@ -8,7 +8,7 @@ export default createGlobalStyle`
         outline: none;
     }
     :root {
-        --blue: #2d7cf9;
+        --blue: #029adf;
         --light-blue: #afdcfe;
         --dark-blue: #9480a0;
         --gray: #b6bbcb;
@@ -18,7 +18,6 @@ export default createGlobalStyle`
     }
     
     a {
-        color: var(--gray);
         text-decoration: none;
     }
     aside, footer, header {
