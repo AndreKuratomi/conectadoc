@@ -1,4 +1,4 @@
-## CONECTADOC
+## KENZIEDOC
 
 - [Sobre](#sobre)
 - [Instalação](#instalação)
@@ -9,7 +9,7 @@
 
 # Sobre
 
-<p>A aplicação ConectaDoc se propõe a cadastrar médicos e pacientes na plataforma possibilitando o agendamento de consultas de maneira simples e intuitiva, além de fazer a gestão de consultas agendadas e a da lista de espera.
+<p>A aplicação KenzieDoc se propõe a cadastrar médicos e pacientes na plataforma possibilitando o agendamento de consultas de maneira simples e intuitiva, além de fazer a gestão de consultas agendadas e a da lista de espera.
 O objetivo da aplicação é ser uma ferramenta que possibilite o profissional de saúde cadastrar sua especialidade e seus locais de atendimento e possibilitar ao paciente  fazer uma busca pelo profissional mais adequado para sua necessidade e  agendar a consulta de forma confortável , prática e rápida.</p>
 <br>
 
@@ -25,7 +25,7 @@ O objetivo da aplicação é ser uma ferramenta que possibilite o profissional d
 git init
 ```
 
-<h5>1. Fazer o clone do repositório <b>ConectaDoc</b> na sua máquina pelo terminal do computador ou pelo do IDE:</h5>
+<h5>1. Fazer o clone do repositório <b>KenzieDoc</b> na sua máquina pelo terminal do computador ou pelo do IDE:</h5>
 
 ```
 git clone https://github.com/AndreKuratomi/conectadoc.git
